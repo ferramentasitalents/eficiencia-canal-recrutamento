@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Eficiência do canal de recrutamento</title>
+  <link href="https://ferramentasitalents.github.io/eficiencia-canal-recrutamento/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/eficiencia-canal-recrutamento/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateEfficiency(); return false;">
+      <label>Número de candidatos qualificados provenientes de determinado canal:</label>
+      <input type="number" id="num-candidatos" required>
+      <br>
+      <br>
+      <label>Número médio de aplicantes de todos os canais:</label>
+      <input type="number" id="num-aplicantes" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
 
